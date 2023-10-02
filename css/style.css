@@ -68,13 +68,14 @@ DEBUG
 }
 	/* fine seconda section debug */
 	/* final section */
+.debug .container-final-box{
+	height: 1024px;
+}
 .debug .final-part{
 	height: 931px;
 	background-color: #228b22;
 }
-.debug .container-final-box{
-	height: 1024px;
-}
+
 	/* final section */
 /* 
 fine main debug
@@ -86,15 +87,23 @@ fine main debug
 .debug .main-foot-box{
 	height: 655px;
 }
+
+.debug .left-box{
+	background-color: #f08686;
+	height: 600px;
+}
 .debug .foot-box{
 	background-color: #20b2aa;
 	height: 600px;
 	border: 2px dashed rgb(255, 255, 255);
 }
 
-.debug .left-box{
-	background-color: #f08686;
-	height: 600px;
+.debug .final{
+	background-color:#ffb6c1;
+}
+
+.debug .final-background{
+	background-color: #7fffd4;
 }
 /* fine footer */
 
@@ -182,10 +191,13 @@ fine main
 /*
  inizio footer
 */
+/* prima sezione footer */
+
 .main-foot-box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 25px;
 }
 .left-box{
 	width: 370px;
@@ -201,6 +213,12 @@ fine main
 .second-space{
 	background-color: #d7d7d8;
 }
+/* fine prima sezione footer */
+/* inizio ultima parte navbar */
+.margin-control{
+	padding-top: 27px;
+}
+/* fine ultima parte navbar */
 /* 
 fine footer
 */
