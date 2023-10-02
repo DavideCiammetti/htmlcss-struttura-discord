@@ -31,6 +31,40 @@ DEBUG
 	border: 2px dashed black;
 }
 	/* sottonav */
+
+/* 
+ inizio main debug
+*/
+	/* prima section debug */
+.debug .main-section{
+	height: 625px;
+	background-color: white;
+}
+
+.debug .container-box{
+	height: 625px;
+}
+
+.debug .big-part{
+	background-color: #1e90ff;
+	border: 2px dashed black;
+	height: 517px;
+}
+.debug .small-part{
+	background-color: #ffc0cb;
+	border: 2px dashed black;
+	height: 517px;
+}
+	/* fine prima section debug */
+	/* inizio seconda section debug */
+.debug .two{
+	background-color: #d3d3d3;
+}
+	/* fine seconda section debug */
+/* 
+fine main debug
+*/
+
  /* 
 DEBUG
 */
@@ -77,3 +111,25 @@ DEBUG
 			border-radius: 5px;
 		}
 /* header */
+
+/* 
+ inizio main
+*/
+		/* prime 3 section */
+.container-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.big-part{
+	width: 773px;
+}
+.small-part{
+	width: 476px;
+}
+	/* prime 3 section */
+	
+/* 
+fine main
+*/
