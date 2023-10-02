@@ -6,29 +6,37 @@
 /* 
 DEBUG
 */
+/* 
+   global
+*/
+.debug .bord{
+	border: 2px dashed black;
+}
+/* 
+   global
+*/
 	/* nav bar */
-.debug .nav-container{
+.debug header{
 	background-color: #add8e6;
+}
+.debug .nav-container{
 	height: 82px;
 }
 
 .debug .nav-bar{
 	height: 47px;
 	background-color: #daa520;
-	border: 2px dashed black;
 }
 	/* nav bar */
 	/* sottonav */
 .debug .under-nav{
 	background-color: #00008b;
 	height: 513px;
-	border: 2px dashed rgb(255, 255, 255);
 }
 
 .debug .big-box-under-nav{
 	background-color: #ee82ee;
 	height: 412px;
-	border: 2px dashed black;
 }
 	/* sottonav */
 
@@ -47,12 +55,10 @@ DEBUG
 
 .debug .big-part{
 	background-color: #1e90ff;
-	border: 2px dashed black;
 	height: 517px;
 }
 .debug .small-part{
 	background-color: #ffc0cb;
-	border: 2px dashed black;
 	height: 517px;
 }
 	/* fine prima section debug */
@@ -61,19 +67,36 @@ DEBUG
 	background-color: #d3d3d3;
 }
 	/* fine seconda section debug */
-	/* green section */
-.debug .green-part{
+	/* final section */
+.debug .final-part{
 	height: 931px;
 	background-color: #228b22;
-	border: 2px dashed black;
 }
-.debug .container-green-box{
+.debug .container-final-box{
 	height: 1024px;
 }
-	/* green section */
+	/* final section */
 /* 
 fine main debug
 */
+/* inizio footer */
+.debug footer{
+	background-color: #23272a;
+}
+.debug .main-foot-box{
+	height: 655px;
+}
+.debug .foot-box{
+	background-color: #20b2aa;
+	height: 600px;
+	border: 2px dashed rgb(255, 255, 255);
+}
+
+.debug .left-box{
+	background-color: #f08686;
+	height: 600px;
+}
+/* fine footer */
 
  /* 
 DEBUG
@@ -126,6 +149,7 @@ DEBUG
  inizio main
 */
 		/* prime 3 section */
+
 .container-box{
 	display: flex;
 	justify-content: center;
@@ -139,18 +163,44 @@ DEBUG
 	width: 476px;
 }
 	/* prime 3 section */
-	/* sectio finale green */
-.container-green-box{
+	/* sectio finale final */
+.container-final-box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.green-part{
+.final-part{
 	width: 1250px;
 }
-	/* sectio finale green */
+	/* sectio finale final */
 
 /* 
 fine main
+*/
+
+/*
+ inizio footer
+*/
+.main-foot-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left-box{
+	width: 370px;
+}
+.foot-box{
+	width: 220px;
+}
+
+.first-space{
+	background-color: #b4b4b3;
+}
+
+.second-space{
+	background-color: #d7d7d8;
+}
+/* 
+fine footer
 */
