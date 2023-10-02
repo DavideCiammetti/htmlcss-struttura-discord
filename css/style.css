@@ -7,7 +7,45 @@
 DEBUG
 */
 
+.debug .nav-container{
+	background-color: #add8e6;
+	height: 82px;
+}
+
+.debug .nav-bar{
+	height: 47px;
+	background-color: #daa520;
+	border: 2px dashed black;
+}
 
  /* 
 DEBUG
+*/
+/* ********************************************************************************************************** */
+/* 
+barra navigazione principale
+*/
+.nav-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-bar{
+	display: flex;
+	width: 530px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link-container{
+	display: flex;
+}
+
+a{
+	margin-right: 10px;
+	text-decoration: none; 
+}
+
+/* 
+barra navigazione principale
 */
