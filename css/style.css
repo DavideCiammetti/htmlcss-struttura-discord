@@ -61,6 +61,16 @@ DEBUG
 	background-color: #d3d3d3;
 }
 	/* fine seconda section debug */
+	/* green section */
+.debug .green-part{
+	height: 931px;
+	background-color: #228b22;
+	border: 2px dashed black;
+}
+.debug .container-green-box{
+	height: 1024px;
+}
+	/* green section */
 /* 
 fine main debug
 */
@@ -129,7 +139,18 @@ DEBUG
 	width: 476px;
 }
 	/* prime 3 section */
-	
+	/* sectio finale green */
+.container-green-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.green-part{
+	width: 1250px;
+}
+	/* sectio finale green */
+
 /* 
 fine main
 */
