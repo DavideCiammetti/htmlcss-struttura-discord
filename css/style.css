@@ -6,7 +6,7 @@
 /* 
 DEBUG
 */
-
+	/* nav bar */
 .debug .nav-container{
 	background-color: #add8e6;
 	height: 82px;
@@ -17,35 +17,63 @@ DEBUG
 	background-color: #daa520;
 	border: 2px dashed black;
 }
+	/* nav bar */
+	/* sottonav */
+.debug .under-nav{
+	background-color: #00008b;
+	height: 513px;
+	border: 2px dashed rgb(255, 255, 255);
+}
 
+.debug .big-box-under-nav{
+	background-color: #ee82ee;
+	height: 412px;
+	border: 2px dashed black;
+}
+	/* sottonav */
  /* 
 DEBUG
 */
 /* ********************************************************************************************************** */
-/* 
-barra navigazione principale
-*/
-.nav-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.nav-bar{
-	display: flex;
-	width: 530px;
-	justify-content: space-between;
-	align-items: center;
-}
+/* header */
+	/* 
+	barra navigazione principale
+	*/
+	.nav-container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.nav-bar{
+		display: flex;
+		width: 1248px;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-.link-container{
-	display: flex;
-}
+	.link-container{
+		display: flex;
+	}
 
-a{
-	margin-right: 10px;
-	text-decoration: none; 
-}
+	a{
+		margin-right: 10px;
+		text-decoration: none; 
+	}
 
-/* 
-barra navigazione principale
-*/
+	/* 
+	barra navigazione principale
+	*/
+		/* 
+			box sotto barra navigazione
+		*/
+		.under-nav{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.big-box-under-nav{
+			width: 943px;
+			border-radius: 5px;
+		}
+/* header */
